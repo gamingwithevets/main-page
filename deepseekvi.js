@@ -12780,9 +12780,9 @@
 								let {
 									version: t
 								} = e;
-								return "Đã tìm thấy phiên bản mới ".concat(t, ", vui lòng tải mới trang để nâng cấp.")
+								return "Đã tìm thấy phiên bản mới ".concat(t, ", vui lòng tải trang để nâng cấp.")
 							},
-							updateVersionNotificationRefreshButton: "Tải mới lập tức",
+							updateVersionNotificationRefreshButton: "Tải lại lập tức",
 							updateVersionNotificationTitle: "Gợi ý nâng cấp"
 						},
 						en_US: {
@@ -12922,7 +12922,7 @@
 								file_usage_ratio: t
 							} = e;
 							return (0, i.jsxs)(i.Fragment, {
-								children: ["Vượt quá hạn chế số từ, DeepSeek chỉ đọc xem được ", Math.max(1, Math.floor(t)), "% đầu"]
+								children: ["Vượt quá giới hạn số từ, DeepSeek chỉ đọc xem được ", Math.max(1, Math.floor(t)), "% đầu"]
 							})
 						},
 						brandNewChatDivider: "Đây là cuộc đối thoại mới",
@@ -12934,7 +12934,7 @@
 						chatHtmlTitle: "Khám phá những nơi chưa từng khám phá",
 						chatInputEmptyPromptButtonTooltip: "Mời nhập vấn đề của bạn",
 						chatInputNewChatButton: "Cuộc đối thoại mới",
-						chatInputNewChatButtonThinkingExceededPrompt: "Cuộc đối thoại hiện tại đã vượt quá hạn chế độ dài tối đa của Suy nghĩ Sâu, bắt đầu một cuộc đối thoại mới để tiếp tục suy nghĩ nhé~",
+						chatInputNewChatButtonThinkingExceededPrompt: "Cuộc đối thoại hiện tại đã vượt quá giới hạn độ dài tối đa của suy nghĩ sâu, bắt đầu một cuộc đối thoại mới để tiếp tục suy nghĩ nhé~",
 						chatInputNewChatButtonTooltip: "Nội dung gần quá dài, chuẩn bị bắt đầu cuộc đối thoại mới",
 						chatInputPlaceholder: "Hãy nhập vấn đề. Enter để gửi, Ctrl + Enter để xuống dòng",
 						chatInputPlaceholderChat: "Gửi tin nhắn đến DeepSeek ",
@@ -12988,7 +12988,7 @@
 						deleteSessionModalContentDescription: "Sau khi xóa, cuộc đối thoại ấy sẽ không thể khôi phục. Xác nhận xóa chứ?",
 						deleteSessionModalContentTitle: "Xóa vĩnh cửu cuộc đối thoại",
 						deleteSessionOkToast: "Xóa thành công",
-						downloadAppInMobile: "Tải xuống App",
+						downloadAppInMobile: "Tải xuống ứng dụng",
 						dragFileDesc: "Hỗ trợ tối đa 50 tập tin, mỗi cái 100 MB, chỉ xuất văn bản, tiếp thụ pdf, doc, xlsx, ppt, hình ảnh, văn bản, code...",
 						dragFileErrorTip: "Tập tin tải lên bao gồm định dạng tệp chưa hỗ trợ, mời chuyển định dạng tệp sau đó thử lại. Hỗ trợ PDF, DOC, XLSX, PPT, hình ảnh, văn bản, code...",
 						dragFileToUpload: "Kéo tệp vào đây để tải lên (chỉ xuất văn bản)",
@@ -13057,7 +13057,7 @@
 								renderContactUs: n
 							} = e;
 							return (0, i.jsxs)(i.Fragment, {
-								children: ["Do vi phạm quy định sử dụng người dùng, tài khoản của bạn đã bị cấm nói đến ", t, ", nếu có nghi vấn mời", " ", n({
+								children: ["Do vi phạm quy định sử dụng người dùng, tài khoản của bạn đã bị cấm nói đến ", t, ", nếu có câu hỏi mời", " ", n({
 									children: "liên hệ chúng tôi"
 								}), "."]
 							})
@@ -13076,161 +13076,161 @@
 						profilePhoneNumberTitle: "Số điện thoại",
 						profileUserName: "Tên người dùng",
 						promptRolePlaceholder: "Miêu tả những gì vai trò có khả năng thực hiện, như cách thực hiện, những gì tránh làm. Ví dụ: Bạn là một giáo viên toán tiểu học với kinh nghiệm phong phú, bạn giỏi sử dụng ví dụ cụ thể dẫn đưa học sinh suy nghĩ từng bước, mời chia nhỏ vấn đề, tránh bỏ sót quá trình.",
-						r1DescTooltip: "调用 DeepSeek-R1-Lite，解决复杂推理问题（已开启）",
-						r1PowComputeFail: "当前操作遇到一些问题，请稍后再试",
-						regenerate: "重新生成",
-						renameFailed: "重命名失败",
-						report: "联系我们",
-						reportFooterText: "联系我们：service@deepseek.com",
-						reportTextareaPlaceholder: "请描述你的意见与建议。如有疑问，欢迎通过微信或邮箱与我们直接联系。",
-						resend: "重新发送",
-						revokeByServerDivider: "出于内容安全考虑，一条消息被撤回",
-						roleAgainstUsageTermToast: "角色信息可能违反使用规范，请修改后重试",
-						roleCreateSuccess: "角色创建成功",
-						roleDesc: "角色开场白（选填）",
-						roleDescExceedError: "欢迎语超出字数限制",
-						roleEditSuccess: "角色编辑成功",
-						roleLatestUpdatedAt: "最后修改",
-						roleName: "角色名称",
-						roleNameExceedError: "角色名超出字数限制",
-						roleNotFound: "角色不存在",
-						rolePromptExceedError: "设定描述超出字数限制",
-						roleSysPrompt: "设定描述",
-						saveEditRole: "保存",
-						scanDownloadApp: "扫码下载 DeepSeek APP",
-						search: "联网搜索",
+						r1DescTooltip: "Đổi qua DeepSeek-R1-Lite, giải quyết vấn đề suy luận phức tạp (đã mở)",
+						r1PowComputeFail: "Thao tác hiện tại gặp một số vấn đề, mời thử lại sau",
+						regenerate: "Tạo lại",
+						renameFailed: "Đổi tên thất bại",
+						report: "Liên hệ chúng tôi",
+						reportFooterText: "Liên hệ chúng tôi: service@deepseek.com",
+						reportTextareaPlaceholder: "Mời miêu tả ý kiến hoặc kiến nghị của bạn. Nếu có câu hỏi, mời liên hệ trực tiếp với chúng tôi thông qua WeChat hoặc email.",
+						resend: "Gửi lại",
+						revokeByServerDivider: "Do lo ngại về an toàn nội dung, một phần tin nhắn bị rút lại",
+						roleAgainstUsageTermToast: "Thông tin vai trò có khả năng vi phạm quy chế sử dụng, mời chỉnh sửa và thử lại",
+						roleCreateSuccess: "Tạo vai trò thành công",
+						roleDesc: "Lời mở đầu vai trò (tùy chỉnh)",
+						roleDescExceedError: "Lời mở đầu vượt quá giới hạn kí tự",
+						roleEditSuccess: "Sửa đổi vai trò thành công",
+						roleLatestUpdatedAt: "Lần cuối sửa đổi",
+						roleName: "Tên vai trò",
+						roleNameExceedError: "Tên vai trò vượt quá giới hạn kí tự",
+						roleNotFound: "Vai trò không tồn tại",
+						rolePromptExceedError: "Mô tả vượt quá giới hạn kí tự",
+						roleSysPrompt: "Thiết lập mô tả",
+						saveEditRole: "Lưu",
+						scanDownloadApp: "Quét mã tải xuống ứng dụng DeepSeek",
+						search: "Tìm kiếm trực tuyến",
 						searchFoundXSites: e => {
 							let {
 								n: t
 							} = e;
-							return "已搜索到 ".concat(t, " 个网页")
+							return "Đã tìm thấy ".concat(t, " trang")
 						},
-						searchGotNothing: "未搜索到合适的内容",
-						searchNotSupportFiles: "联网搜索不支持上传文件",
-						searchNotSupportThink: "联网搜索不支持深度思考",
-						searchResult: "搜索结果",
-						searchRole: "搜索",
-						sendButtonContent: "发送",
-						sendFeedback: "联系我们",
-						serviceUnavailable: "服务暂时不可用",
-						sessionHeaderModelNameChat: "通用对话 V2",
-						sessionHeaderModelNameCoder: "代码助手 V2",
-						sessionHistoryTimelineLabel30days: "30 天内",
-						sessionHistoryTimelineLabel7days: "7 天内",
-						sessionHistoryTimelineLabelToday: "今天",
-						sessionHistoryTimelineLabelYesterday: "昨天",
-						sessionItemMenuDeleteOption: "删除",
-						sessionItemMenuRenameOption: "重命名",
+						searchGotNothing: "Chưa tìm thấy nội dung thích hợp",
+						searchNotSupportFiles: "Tìm kiếm trực tuyến không hỗ trợ tải lên tệp tin",
+						searchNotSupportThink: "Tìm kiếm trực tuyến không hỗ trợ suy nghĩ sâu",
+						searchResult: "Kết quả tìm kiếm",
+						searchRole: "Tìm kiếm",
+						sendButtonContent: "Gửi",
+						sendFeedback: "Liên hệ chúng tôi",
+						serviceUnavailable: "Dịch vụ tạm thời bất khả dụng",
+						sessionHeaderModelNameChat: "Đối thoại thông dụng V2",
+						sessionHeaderModelNameCoder: "Trợ thủ code V2",
+						sessionHistoryTimelineLabel30days: "Trong 30 ngày",
+						sessionHistoryTimelineLabel7days: "Trong 7 ngày",
+						sessionHistoryTimelineLabelToday: "Hôm nay",
+						sessionHistoryTimelineLabelYesterday: "Hôm qua",
+						sessionItemMenuDeleteOption: "Xóa bỏ",
+						sessionItemMenuRenameOption: "Đổi tên",
 						sessionLoadFailed: e => {
 							let {
 								renderRetryButton: t
 							} = e;
 							return (0, i.jsxs)(i.Fragment, {
-								children: ["加载失败，你可以\xa0", t("重试加载")]
+								children: ["Tải thất bại, bạn có thể\xa0", t("tải lại")]
 							})
 						},
-						setRoleIntroPlaceholder: "为角色设置开场白",
-						setRoleNameError: "请填写角色名称",
-						setRolePromptError: "请填写设定描述",
-						settingDialogAsideAccountOptionLabel: "账户信息",
-						settingDialogAsideGeneralOptionLabel: "通用设置",
-						settingsAppearance: "外观",
-						settingsDarkTheme: "深色主题",
-						settingsLightTheme: "浅色主题",
-						settingsLocalePreference: "语言",
-						settingsLocalePreferenceSystem: "跟随系统",
-						settingsSystemTheme: "跟随系统",
-						siderButtonChatNewBadge: "全新",
-						siderProfile: "个人信息",
-						stopButtonContent: "停止",
-						submit: "提交",
+						setRoleIntroPlaceholder: "Thiết lập lời mở đầu vai trò",
+						setRoleNameError: "Mời điền tên vai trò",
+						setRolePromptError: "Mời điền mô tả",
+						settingDialogAsideAccountOptionLabel: "Thông tin tài khoản",
+						settingDialogAsideGeneralOptionLabel: "Cài đặt thông dụng",
+						settingsAppearance: "Bề ngoài",
+						settingsDarkTheme: "Chủ đề màu đêm",
+						settingsLightTheme: "Chủ đề màu nhạt",
+						settingsLocalePreference: "Ngôn ngữ",
+						settingsLocalePreferenceSystem: "Tùy theo hệ thống",
+						settingsSystemTheme: "Tùy theo hệ thống",
+						siderButtonChatNewBadge: "Hoàn toàn mới",
+						siderProfile: "Thông tin cá nhân",
+						stopButtonContent: "Dừng lại",
+						submit: "Nộp",
 						supportEmail: "service@deepseek.com",
-						suspectedCopyRightInfringement: "涉嫌侵权",
-						systemServiceException: "系统服务异常",
-						t: "连续访问次数过多，请休息一会儿",
+						suspectedCopyRightInfringement: "Nghi ngờ vi phạm bản quyền",
+						systemServiceException: "Ngoại lệ dịch vụ hệ thống",
+						t: "Quá nhiều lượt truy cập liên tiếp, mời nghỉ một thời gian",
 						thinkingElapsed: e => {
 							let {
 								secs: t
 							} = e;
-							return "已深度思考（用时 ".concat(t, " 秒）")
+							return "Đã suy nghĩ sâu (trong ".concat(t, " giây)")
 						},
-						thinkingStop: "思考已停止",
-						thinkingSwitchDisabled: "深度思考 (R1)",
-						thinkingSwitchEnabled: "深度思考 (R1)",
+						thinkingStop: "Suy nghĩ đã dừng lại",
+						thinkingSwitchDisabled: "Suy nghĩ sâu (R1)",
+						thinkingSwitchEnabled: "Suy nghĩ sâu (R1)",
 						thinkingSwitchLabelDisabledTooltip: e => {
 							let {
 								total: t
 							} = e;
-							return "今日使用次数已达上限，北京时间 24:00 刷新（".concat(t, "次/天）")
+							return "Số lượng sử dụng hôm nay đã đạt giới hạn trên, làm mới vào 24:00 thời gian Bắc Kinh (".concat(t, " lần/ngày)")
 						},
-						thinkingSwitchLabelDisabledTooltipNotPrepared: "正在更新深度思考次数，请稍后再试",
-						thinkingSwitchLabelMobile: "深度思考 (R1)",
+						thinkingSwitchLabelDisabledTooltipNotPrepared: "Đang cập nhật số lượng suy nghĩ sâu sắc, mời thử lại sau",
+						thinkingSwitchLabelMobile: "Suy nghĩ sâu (R1)",
 						thinkingSwitchQuotaDescription: e => {
 							let {
 								left: t
 							} = e;
-							return "（今日剩余 ".concat(t, " 次）")
+							return "(Hôm nay còn ".concat(t, " lần)")
 						},
 						thinkingSwitchQuotaDescriptionMobile: e => {
 							let {
 								left: t
 							} = e;
-							return "（剩余 ".concat(t, " 次）")
+							return "(Còn ".concat(t, " lần)")
 						},
-						thinkNotSupportSearchTooltip: "深度思考不支持联网搜索",
-						untitledChat: "新对话",
+						thinkNotSupportSearchTooltip: "Suy nghĩ sâu không hỗ trợ tìm kiếm trực tuyến",
+						untitledChat: "Cuộc đối thoại mới",
 						uploadFileButtonTooltip: () => (0, i.jsxs)(i.Fragment, {
 							children: [(0, i.jsx)("span", {
 								role: "title",
-								children: "上传附件（仅识别文字）"
+								children: "Tải lên tệp đính kèm (chỉ nhận dạng văn bản)"
 							}), "最多 50 个，每个 100 MB，支持各类文档和图片"]
 						}),
-						uploadFileDeleteInvalidFilePrompt: "请删除异常文件再发送",
+						uploadFileDeleteInvalidFilePrompt: "Mời xóa bỏ tệp bất thường rồi gửi lại",
 						uploadFileNotificationModalContent: () => (0, i.jsxs)(i.Fragment, {
 							children: [(0, i.jsx)("p", {
-								children: "DeepSeek 文件上传功能全新上线！"
+								children: "Chức năng tải tập tin DeepSeek hoàn toàn mới đã trực tuyến!"
 							}), (0, i.jsxs)("li", {
 								children: [(0, i.jsx)("strong", {
-									children: "功能亮点："
-								}), "一键提取文字，轻松阅读文档"]
+									children: "Tính năng nổi bật:"
+								}), "Một lần nhấn xuất văn bản, đọc văn bản dễ dàng"]
 							}), (0, i.jsxs)("li", {
 								children: [(0, i.jsx)("strong", {
-									children: "推荐场景："
-								}), "可以精准提取中英文书籍、论文及常规电子文档中的文字"]
+									children: "Tình huống đề xuất:"
+								}), "Có thể trích xuất chuẩn văn bản Trung, Anh văn từ sách, báo và văn bản điện tử thường"]
 							}), (0, i.jsxs)("li", {
 								children: [(0, i.jsx)("strong", {
-									children: "优化建议："
-								}), "包含大量图片、公式的文档上传 PDF 格式，效果最佳"]
+									children: "Kiến nghị tối ưu hóa:"
+								}), "Tải lên tài liệu chứa nhiều hình ảnh, công thức ở định dạng PDF để có kết quả tốt nhất"]
 							})]
 						}),
-						uploadFileNotificationModalOk: "我知道了",
-						uploadFileNotificationModalTitle: "\uD83C\uDF89 功能上新",
-						uploadFileStatusContentEmpty: "未提取到文字",
-						uploadFileStatusContentFilter: "可能违反使用规范",
-						uploadFileStatusContentFilterForMobile: "可能违反使用规范",
-						uploadFileStatusFailed: "上传失败",
-						uploadFileStatusParsing: "解析中...",
-						uploadFileStatusUploading: "上传中...",
-						uploadingFiles: "文件解析中...",
-						uploadMax100MBSize: "单个文件大小超过限制（100 MB），请调整后重试",
-						uploadMax50Files: "上传文件最多支持 50 个",
+						uploadFileNotificationModalOk: "Tôi đã hiểu",
+						uploadFileNotificationModalTitle: "\uD83C\uDF89 Tính năng mới",
+						uploadFileStatusContentEmpty: "Không có văn bản trích xuất",
+						uploadFileStatusContentFilter: "Khả năng vi phạm quy chế sử dụng",
+						uploadFileStatusContentFilterForMobile: "Khả năng vi phạm quy chế sử dụng",
+						uploadFileStatusFailed: "Tải lên thất bại",
+						uploadFileStatusParsing: "Đang phân tích...",
+						uploadFileStatusUploading: "Đang tải lên...",
+						uploadingFiles: "Đang phân tích văn bản...",
+						uploadMax100MBSize: "Kích thước một tập tin vượt quá giới hạn (100 MB), mời điều chỉnh rồi thử lại",
+						uploadMax50Files: "Hỗ trợ tải lên tập tin tối đa 50 cái",
 						uploadMultipleFileTokenCountExceededPrompt: e => {
 							let {
 								percent: t
 							} = e;
-							return "DeepSeek 只能阅读全部文件的 ".concat(t, "%，请删减后发送")
+							return "DeepSeek chỉ có thê đọc ".concat(t, "% toàn bộ tập tin, mời xóa bớt rồi gửi lại")
 						},
-						uploadMultipleFileTokenCountExceededPrompt2: "超出字数限制，请删减后发送或开启新对话",
-						usageEnvUnsafeTitle: "使用环境异常",
-						usageEnvUnsafeWarn: "当前页面的使用环境可能存在数据和隐私泄露风险，为保障安全，建议您使用我们的官方产品。",
-						viewConversationHistoryButton: "点击查看历史对话",
-						viewPolicyButton: "查看",
+						uploadMultipleFileTokenCountExceededPrompt2: "Vượt quá giới hạn từ, mời xóa bớt rồi gửi lại hoặc mở cuộc đối thoại mới",
+						usageEnvUnsafeTitle: "Hoàn cảnh sử dụng bất thường",
+						usageEnvUnsafeWarn: "Hoàn cảnh sử dụng hiện tại có khả năng rò rỉ dữ liệu và quyền riêng tư, để bảo đảm an toàn, kiến nghị bạn sử dụng sản phẩm chính thức của chúng tôi.",
+						viewConversationHistoryButton: "Nhấn để xem lịch sử đối thoại",
+						viewPolicyButton: "Xem",
 						wechatQrCodeDescription: () => (0, i.jsxs)(i.Fragment, {
-							children: ["扫码添加", (0, i.jsx)("br", {}), "DeepSeek 官方微信"]
+							children: ["Quét mã để thêm", (0, i.jsx)("br", {}), "WeChat DeepSeek chính thức"]
 						}),
-						welcomeMessageChat: "你好，我是 DeepSeek V2.5 通用对话助手，有问题尽管问我。",
-						welcomeMessageChatV2: "我是 DeepSeek，很高兴见到你！\n",
-						welcomeMessageCode: "你好，我是 DeepSeek V2.5 代码助手，任何关于编程的问题，都可以问我。"
+						welcomeMessageChat: "Xin chào, tôi là trợ thủ đối thoại thông dụng DeepSeek V2.5, có vấn đề cứ hỏi tôi.",
+						welcomeMessageChatV2: "Tôi là DeepSeek, rất vui được gặp bạn!\n",
+						welcomeMessageCode: "Xin chào, tôi là trợ thủ code DeepSeek V2.5, nếu có bất kì vấn đề gì về lập trình, bạn đều có thể hỏi tôi."
 					},
 					zh_CN: {
 						adblockAlertText: "你的浏览器可能启用了 AdGuard/AdBlock/uBlock 类插件，请关闭相关拦截插件，以免影响正常使用。",
